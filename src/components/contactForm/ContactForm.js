@@ -21,7 +21,7 @@ export const ContactForm = ({
         <input type='email' value={email} name='email' onChange={(e) => setEmail(e.target.value)} required placeholder='Email' />
       </label>
       <label>
-        <input type='submit' />
+        <input type='submit' value='Add Contact' />
       </label>
     </form>
   );
